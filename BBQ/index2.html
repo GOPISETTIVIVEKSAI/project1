@@ -1,0 +1,21 @@
+<html lang="en">
+    <head>
+    </head>
+    <body>
+        <h1 id="hlo">hello world</h1>
+        <button onclick="document.getElementById('hlo').innerHTML='bye world'">click1</button>
+        <h1 id="py">hello python</h1>
+        <button onclick="changeName()">click2</button>
+
+        <img id="img1" style="width:15%;" onclick="changeimg()" src="./IMAGES/chef.jpg" alt="">
+        <script>
+            function changeName(){
+                document.getElementById('py').innerHTML='byepython'
+            }
+
+            function changeimg(){
+                document.getElementById('img1').style.width='50%';
+            } 
+        </script>
+    </body>
+</htmL>
